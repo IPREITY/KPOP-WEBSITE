@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kpop Fan Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-purple-600 text-white p-4">
+        <h1 class="text-xl">Kpop Fan Hub</h1>
+    </header>
+    <main>
+        <section id="latest-releases" class="p-4">
+            <h2 class="text-purple-600 font-bold">Latest Releases</h2>
+            <div id="releases-content"><!-- Releases content goes here --></div>
+        </section>
+        <section id="events" class="p-4">
+            <h2 class="text-purple-600 font-bold">Concerts & Events</h2>
+            <div id="events-content"><!-- Events content goes here --></div>
+        </section>
+        <section id="artist-profiles" class="p-4">
+            <h2 class="text-purple-600 font-bold">Artist Profiles</h2>
+            <div id="profiles-content"><!-- Profiles content goes here --></div>
+        </section>
+        <section id="fan-content" class="p-4">
+            <h2 class="text-purple-600 font-bold">Fan Community Highlights</h2>
+            <div id="fan-content"><!-- Fan content goes here --></div>
+        </section>
+        <section id="merchandise" class="p-4">
+            <h2 class="text-purple-600 font-bold">Merchandise Marketplace</h2>
+            <div id="merchandise-content"><!-- Merchandise content goes here --></div>
+        </section>
+    </main>
+    <footer class="bg-purple-600 text-white p-4 text-center">
+        <p>&copy; 2024 Kpop Fan Hub</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
